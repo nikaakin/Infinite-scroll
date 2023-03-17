@@ -1,0 +1,22 @@
+.display-users {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  & > div {
+    width: 25%;
+  }
+
+  &__loader {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  .display-users {
+    & > div {
+      width: 50%;
+    }
+  }
+}

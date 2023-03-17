@@ -1,0 +1,29 @@
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  color: black;
+  display: block;
+  text-decoration: none;
+
+  &__image {
+    img {
+      width: 100%;
+      min-height: 200px;
+      height: auto;
+    }
+  }
+
+  &__name {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
